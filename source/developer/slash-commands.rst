@@ -11,7 +11,7 @@ Mattermost supports slash commands to easily integrate external applications int
 Messages that begin with ``/`` are interpreted as slash commands. The commands will send an HTTP POST request to a web service, and process a response back to Mattermost. Mattermost supports both `built-in <https://docs.mattermost.com/developer/slash-commands.html#built-in-commands>`__ and `custom slash commands <https://docs.mattermost.com/developer/slash-commands.html#custom-slash-command>`__.
 
 .. note::
-  To prevent malicious users from trying to perform `phishing attacks <https://en.wikipedia.org/wiki/Phishing>`__, a *BOT* indicator appears next to posts coming from webhooks regardless of what username is specified.
+  To prevent malicious users from trying to perform `phishing attacks <https://en.wikipedia.org/wiki/Phishing>`__, a *BOT* indicator appears next to posts coming from slash commands regardless of what username is specified.
 
 .. toctree::
    :maxdepth: 2
